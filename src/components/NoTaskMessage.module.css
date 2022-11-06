@@ -1,0 +1,26 @@
+.box {
+    width: 100%;
+    margin-top: 1.5rem;
+    border-top: 2px solid var(--gray-400);
+    border-radius: 8px;
+}
+
+.content {
+    display: flex;
+    padding: 4rem 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content img {
+    width: 3.5rem;
+}
+
+.content span {
+    color: var(--gray-300);
+}
+
+.messageNoTasks {
+    margin-top: 1rem;
+}

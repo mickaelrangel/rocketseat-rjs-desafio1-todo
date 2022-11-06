@@ -1,0 +1,48 @@
+.bodyTasks {
+    width: 46rem;
+    border-radius: 8px;
+    padding: 0.25rem;
+    margin-top: 4rem;
+}
+
+.bodyTasks > header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.createdTasks {
+    color: var(--blue);
+}
+
+.createdTasks span strong {
+    background: var(--gray-400);
+    height: 1.18rem;
+    color: var(--gray-200);
+    padding: 0.125rem 0.5rem;
+    border-radius: 16px;
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+}
+
+.doneTasks strong {
+    color: var(--purple);
+}
+
+.doneTasks span strong {
+    background: var(--gray-400);
+    height: 1.18rem;
+    color: var(--gray-200);
+    padding: 0.125rem 0.5rem;
+    border-radius: 16px;
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+}
+
+.tasksBox {
+    width: 100%;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 2px solid var(--gray-400);
+    border-radius: 8px;
+}
